@@ -1,2 +1,3 @@
 # javascript
-learning by confident
+learning by confidence
+
