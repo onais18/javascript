@@ -17,4 +17,23 @@ console.log("2"===2)
 // Primitive datatypes: string,number,boolean,symbol,null and undifiend.
 // they store in "stack" memory due to (creating a copy nature).
 // non-primitive type: array,object and function it is also called (refrence type).
-// they store in "Heap" memory due to (chage in original value not creating a copy).
+// they store in "Heap" memory due to (change in original value not creating a copy).
+
+// copy value example
+let valueone=25;
+let valuetwo=valueone;
+valuetwo=35;
+console.log(valueone)
+console.log(valuetwo)
+
+// Reference value example
+let user1={
+    email: "email.com",
+    upiId: "okylm@.com"
+}
+let user2=user1
+
+user2.email="yankler@.com"
+console.log(user1)
+console.log(user2)
+
